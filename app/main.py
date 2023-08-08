@@ -13,7 +13,7 @@ import charts
 #    }
 #  ]
 def run():
-  data = read_csv.read_csv('./app/data.csv')
+  data = read_csv.read_csv('/app/data.csv')
   country = input('Type Country => ')
   result = utils.population_by_country(data,country)
   
